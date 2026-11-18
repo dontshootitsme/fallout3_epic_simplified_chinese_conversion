@@ -1,0 +1,40 @@
+# 产物与游戏文件一律不入库
+build/
+out/
+_dist/
+*.esm
+*.esp
+*.esl
+*.bsa
+workbench*.tsv
+workbench*.csv
+backups/
+tests/_tmp/
+
+# 探查/实验产物（体积大且含游戏数据）
+misc_out/
+fonts_out/
+*_out/
+scan_*.json
+rep_*.txt
+gmst.json
+zeta.json
+f3.json
+pyffi.json
+pyffi.whl
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+dist/
+build-py/
+
+# 编辑器/系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

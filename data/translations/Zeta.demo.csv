@@ -1,0 +1,33 @@
+formid,nth,rectype,sub,en_us,zh
+0100db92,0,MGEF,FULL,Paralyze,麻痹效果
+0100d74c,0,CLAS,FULL,Somah's Class,莎玛的职业
+010058ce,0,FACT,FULL,Alien Robot Faction,外星机器人阵营
+01003c46,0,FACT,FULL,Alien Faction,外星人阵营
+010058d9,0,FACT,FULL,Abomination Faction,憎恶阵营
+010054b0,0,INFO,NAM1,The kid's right... this kind of does look a bit like that TV show.,那孩子说得没错……这儿确实有点像那个电视节目。
+010054b0,1,INFO,NAM1,"I mean, not that I watched it a lot or anything.",我是说，我也不是经常看啦。
+010054b0,2,INFO,NAM1,"Anyway, uhh, sorry. What should I do?",总之，呃，抱歉。我该做什么？
+0100aac5,0,INFO,NAM1,"Hey, I didn't know you were exploring, too!",嘿，我不知道你也在四处探索！
+01007eb8,0,INFO,NAM1,"Okay, let's get out of this place!",好吧，我们离开这个地方！
+0100ac06,0,NOTE,FULL,Alien Captive Recorded Log 25,外星俘虏录音日志 25
+0100ac05,0,NOTE,FULL,Alien Captive Recorded Log 24,外星俘虏录音日志 24
+0100ac04,0,NOTE,FULL,Alien Captive Recorded Log 23,外星俘虏录音日志 23
+0100abc6,0,NOTE,FULL,Alien Captive Recorded Log 22,外星俘虏录音日志 22
+0100abc5,0,NOTE,FULL,Alien Captive Recorded Log 21,外星俘虏录音日志 21
+0100ab72,0,TERM,ITXT,Log Entry 4-11-2063,日志记录 2063-4-11
+0100ab72,1,TERM,ITXT,Log Entry 4-15-2063,日志记录 2063-4-15
+0100ab72,2,TERM,ITXT,Log Entry 4-16-2063,日志记录 2063-4-16
+0100ab72,3,TERM,ITXT,Log Entry 5-01-2063,日志记录 2063-5-01
+0100ab72,4,TERM,ITXT,Remote Unlock Safe,远程解锁保险箱
+0100c8df,0,MESG,DESC,Your training experience with alien weaponry has made you a Xenotech Expert.,你在外星武器方面的训练经历使你成为了异星科技专家。
+0100a9f1,0,MESG,DESC,An examination of the device shows that it will burn out after 1 more use.,检查该装置后发现，它再使用 1 次就会烧毁。
+0100a9f0,0,MESG,DESC,The archway has burned out and is no longer useful.,拱门已经烧毁，不再有用。
+0100a9ef,0,MESG,DESC,The archway has restored some of your health.,拱门恢复了你的一部分生命值。
+0100a9ee,0,MESG,DESC,An examination of the device shows that it will burn out after %.0f more uses.,检查该装置后发现，它再使用 %.0f 次就会烧毁。
+000000d4,0,DIAL,FULL,I have to go now.,我得走了。
+01009a0b,0,NPC_,FULL,Madeline Wallace,玛德琳·华莱士
+01009a0a,0,NPC_,FULL,Dr. Morrison Rand,莫里森·兰德博士
+010098f1,0,NPC_,FULL,Corporal Spurlock,斯普洛克下士
+010098f0,0,NPC_,FULL,Private Mears,米尔斯列兵
+0100b27d,0,NPC_,FULL,Wastelander,废土客
+0100a6c8,0,NPC_,FULL,Test Subject,实验体

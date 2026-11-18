@@ -9,6 +9,11 @@ Convert the Epic Games release of *Fallout 3: Game of the Year Edition* (English
 Simplified Chinese: extract every player-visible string, translate in a spreadsheet-friendly
 workbench, write it back byte-surgically into the masters, verify, audit, install, roll back.
 
+> **当前决定（2026-11-18）**：显示层不走 FOSE/插件方案。等社区字节级反编译项目
+> [f3decomp](https://f3decomp.com/)（Fallout 3 PC **1.7.0.3**，抓取时已 **99.1%** 完成）
+> 放出重建源码后，从源码直接改出支持中文的引擎版本。
+> 对接清单与已在真实 exe 上标好的靶点见 [docs/engine-cjk-plan.md](docs/engine-cjk-plan.md)。
+
 > **重要 / IMPORTANT.** 游戏引擎是**单字节文本引擎**。只把汉字写进插件、不装双字节渲染运行时，
 > 进游戏一定是乱码。文本层（本仓库）与显示层（注入代码 + 中文字库）缺一不可，
 > 见 [`docs/runtime-cjk.md`](docs/runtime-cjk.md)。
@@ -87,8 +92,9 @@ tests/
 - [x] 写回 + 结构自校验 + 回读一致（演示 32/32）
 - [x] 漏译审计、安装/回滚、BSA 探查
 - [ ] 全量译文（60–110 万汉字）：按 `data/translations/` 分批推进
-- [ ] 字库生成（把 TTF 烘成 `.fnt` + 图集）与运行时装配脚本
-- [ ] 不降级的注入路线（见 `docs/runtime-cjk.md` 路线 R3）
+      （第 1 批 UI/短字符串层已抽出 19,928 条：`tools/batch1_ui.py`）
+- [ ] 字库生成（把 TTF 烘成 `.fnt` + 图集）与引擎侧字库格式对接
+- [ ] **R0**：等 f3decomp 源码 → 从源码改出中文引擎（对接清单 `docs/engine-cjk-plan.md`）
 
 ## 许可
 
